@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body><script>
+    function isPrime(number) {
+        result = true;
+        for (i = 2; i < number; i++) {
+            if (number % i == 0) {
+                return result = false;
+            }
+
+        }
+    }
+    let a = parseInt(prompt("nhap vao"));
+    let check = isPrime(a);
+    if (result) {
+        alert("day la so nguyen so");
+    } else  {
+        alert(" day khong phai so nguyen to")
+    }
+</script>
+
+</body>
+</html>
